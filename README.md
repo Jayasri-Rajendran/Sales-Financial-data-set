@@ -1,39 +1,40 @@
 # Sales-Financial-data-set
+📊 Product Sales Dashboard
 
+This repository contains a Product Sales Dashboard built using Power BI and Excel. It uses raw data from Product_Sales.xlsx to provide insights into:
+Agent performance
+Product sales
+Customer interactions
+🛠 Data Source
+The dashboard is based on data from:
+📄 Product_Sales.xlsx
+Data is cleaned and transformed using Power Query in Power BI.
 
-Product Sales by Agent
+📂 Dataset Columns
 
-The dashboard visualizes product sales performance across agents.
+AgentID – Sales agent ID
+CallID – Unique call reference
+CustomerID – Customer ID
+PickedUp – Whether the call was answer
+Duration – Call duration
+ProductSold – Number of products sold
+Agent_Name – Name of the sales agent
 
-Chart Used: Clustered column chart
+📈 Dashboard Features
 
-X-axis: Agent Name (e.g., Gloria Singh, Todd Morrow, Lisa Cordova, etc.)
+Track total products sold
+Analyze call durations
+Measure agent participation
+Visual charts and KPIs to highlight key metrics
+Identify top-performing agents
 
-Y-axis: Sales-related measures (Sum of Products Sold, Duration, and Count of AgentID)
+🎯 Benefits
 
-Insights:
-
-Sales volume is fairly consistent across most agents, with slight variation.
-
-A few agents (e.g., Michelle Williams, Agent X) achieved slightly higher total sales.
-
-One or two agents show lower performance (e.g., Dana Hardy).
-
-
-KPIs captured:
-
-Total Products Sold
-
-Total Duration (effort/time)
-
-Agent Participation (Count of AgentID)
-
-
-Purpose:
-
-Helps identify top-performing and underperforming agents.
-
-Useful for sales management decisions, training needs, and resource allocation.
-
-
-
+Automated data transformation with Power Query
+Easy-to-understand visual reports
+Helps in decision-making and performance tracking
+🚀 How to Use
+1. Clone or download this repository
+2. Open Product_Sales.xlsx in Power BI
+3. Click Refresh to update data
+4. Explore the dashboard to analyze sales performance
